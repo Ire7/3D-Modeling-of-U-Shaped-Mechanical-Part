@@ -59,3 +59,54 @@ Ready for:
 GitHub Submission  
 FEA Simulation  
 Comparison with original drawing
+
+------------------------------------------------------
+## STL Model Visualization using Kiri:Moto
+
+## Objective:
+To visualize and inspect a 3D model (STL format) using the Kiri:Moto tool without printing. The purpose is to check structure, orientation, and slicing preview for documentation.
+
+## Steps Followed:
+
+1. Model Export from Design Tool
+  Designed a 3D part using a CAD tool (e.g., Tinkercad).
+  Exported the design as a .stl file.
+
+2. Open Kiri:Moto in Browser
+Visited the website: https://grid.space/kiri
+
+3. Import the STL Model
+Clicked Files > Import to upload the .stl file.
+  Verified that the model appeared correctly on the build plate.
+
+4. Adjust View and Orientation
+  Rotated and zoomed using the mouse to inspect the model.
+  Verified alignment and proportions.
+
+5. Set Parameters (Optional – for visualization only)
+  Layer Height: 0.25
+  Top Layers: 3
+  Base Layers: 3
+  Nozzle Temp: 200
+  Bed Temp: 60
+  Fan On Layer: 1
+  Fan Speed: 255
+  Print Speed: 50
+  Shell Count: 3
+  Infill Factor: 1.25
+  (Other values left as default)
+
+6. Slice the Model
+Clicked the Slice button to generate slicing layers.
+Verified the layers using the Preview mode to check:
+Shells (blue)
+Solid fill (green)
+Sparse fill (purple)
+
+8. (Optional) Exported GCode
+Clicked Export to generate GCode (not for printing, just to complete the flow).
+
+## Notes:
+  This process was used only for visualization and documentation purposes.
+  The model was not intended for actual 3D printing at this stage.
+  The preview was used to confirm the model is structurally sound and properly sliced.
